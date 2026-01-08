@@ -1,4 +1,4 @@
-FROM node:8.11.3
+FROM node:18-alpine
 
 # Create app directory
 RUN mkdir -p /app
@@ -11,5 +11,5 @@ RUN npm install
 # Bundle app source
 COPY . /app
 
-EXPOSE 3000
+EXPOSE 8080
 CMD [ "npm", "start" ]

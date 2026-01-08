@@ -1,0 +1,10 @@
+[project]
+name = "staticman-modal"
+version = "0.1.0"
+description = "Staticman deployed on Modal"
+requires-python = ">=3.10"
+dependencies = [
+    "modal>=1.0.0",
+    "fastapi",
+    "httpx",
+]
