@@ -58,7 +58,7 @@
     "jest": "^23.6.0",
     "lodash": "^4.17.15",
     "nock": "^11.7.0",
-    "standard": "^10.0.2"
+    "standard": "^17.1.2"
   },
   "jest": {
     "collectCoverage": true,
